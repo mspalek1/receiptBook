@@ -7,9 +7,16 @@
 <div class="row">
     <div class="col-xs-12">
 
-        <app-recipe-item
+      <!--  <app-recipe-item
         *ngFor="let recipeEl of recipes"
         [recipe]="recipeEl"
         (recipeSelected)="onReceipeSelected(recipeEl)"></app-recipe-item>
+    
+        with using RecipeService
+    -->
+
+        <app-recipe-item
+        *ngFor="let recipeEl of recipes"
+        [recipe]="recipeEl"></app-recipe-item>
     </div>
 </div>
